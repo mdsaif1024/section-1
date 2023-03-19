@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Student Admission Form</h1>
+        <hr>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Your Name" required minlength="6"><br><br>
+
+        <label>Email</label>
+        <input type="text" placeholder="Enter Your Email"><br><br>
+
+        <label>Date of Birth</label>
+        <input type="date" placeholder="Enter Your DOB"><br><br>
+
+        <label>Gender</label>
+        <input type="radio" name="x">Male
+        <input type="radio" name="x">Female
+        <br><br>
+
+        <label>Address</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+        <label>Contact</label>
+        <input type="number"><br><br>
+
+        <label for="image">Upload Image</label>
+        <input hidden id="image" type="file"><br><br>
+
+        <label>Select Your City</label>
+        <select>
+            <option>Lucknow</option>
+            <option>Gaya</option>
+            <option>Nainital</option>
+            <option>Shimla</option>
+            <option>Mumbai</option>
+        </select><br><br>
+
+        <label>Select Course</label>
+        <input type="text" list="course">
+
+        <datalist id="course">
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>BBA</option>
+            <option>MBA</option>
+        </datalist>
+        <br></br>
+
+        <input type="checkbox" required>
+        <label>Accept terms and condition</label><br><br>
+
+        <details>
+            <summary>Terms & conditions</summary>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quod libero atque suscipit similique
+                nulla ipsam, sed nam. Suscipit, perspiciatis.
+            </p>
+        </details>
+        <button>
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>

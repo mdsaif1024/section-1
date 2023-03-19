@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;        }
+            section{
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 100px;
+                box-sizing: border-box;
+                background: linear-gradient(180deg, #008aff, #ff137d);
+                background-blend-mode: screen;
+
+            }
+            section .content{
+                max-width: 700px;
+
+            }
+            section .content h2{
+                font-size: 3em;
+                color: white;
+            }
+            section .content p{
+                font-size: 1.2em;
+                color: white;
+            }
+            section img{
+                position: relative;
+                max-width: 350px;
+                margin-top: 300px;
+                z-index: 1000;
+            }
+            .wave {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="content">
+            <h2>Wave Shape Banner</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus vel mollitia qui maxime debitis modi eum atque fuga non porro pariatur perspiciatis dolore molestiae, voluptatem neque eos tenetur quis? Aspernatur, quisquam nam. Laboriosam quas repudiandae quam blanditiis eos illo tenetur nemo deleniti, debitis aut placeat esse? Voluptatibus reiciendis quidem atque?</p>
+        </div>
+        <img src="SeekPng.com_student-png_247645.png" alt="">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    
+</body>
+</html>

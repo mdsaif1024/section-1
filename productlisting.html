@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+
+    <style>
+        .mycard {
+            transform-style: preserve-3d;
+            transform: perspective(1000px)
+        }
+
+        .mycard .card-body {
+            transform: translateZ(60px);
+            padding: 20px;
+        }
+
+        body {
+            /* background-color: ; */
+        }
+
+        .nav-links {
+
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            justify-content: flex-end;
+            color: white;
+
+        }
+        .nav-links p {
+            margin:0 20px;
+            font-weight: bold;
+            /* margin-top: 82px; */
+        }
+        nav {
+            /* border: 1px solid red; */
+            background-color:  #047bd5;
+            padding: 5px 100px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+
+        }
+        .nav-items{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #000;
+            margin-top: 82px;
+            /* margin-right: 100px; */
+
+        }
+        .nav-bar{
+            background-color: #fff;
+            height: 100px;
+        }
+        
+    </style>
+    <title>Product List</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h3><img src="Flipkart-logo.jpg" alt="" height="60"></h3>
+        </div>
+        <div class="nav-links">
+            <p>Home</p>
+            <p>Login</p>
+            <p>Singup</p>
+            <i class="fas fa-shopping-cart"></i><p>Cart</p>
+        </div>
+    </nav>
+    <nav class="nav-bar">
+        <div class="nav-items">
+            <p>Home</p>
+            <p>Login</p>
+            <p>Singup</p>
+        </div>
+    </nav>
+    <hr>
+
+
+    <div class="col-md-11 mx-auto">
+
+        <div class="row gx-5">
+
+
+            <div class="col-md-3">
+                <div class="card mycard">
+                    <img src="Canon-EOS-200D-II-DSLR-Camera-491431412-i-2-1200Wx1200H.jpg" alt="" class="card-img-top">
+
+                    <div class="card-body">
+                        <p class="text-muted">Camera</p>
+                        <span>
+                            <i class="fas fa-star text-warning   "></i>
+                            4.5
+                        </span>
+                        <p>27,132 Reviews</p>
+                        <h3>Cannon 1500D DSLR Camera</h3>
+                        <h1 class="float-end">₹37,490</h1>
+                        <button class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Buy Now</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mycard">
+                    <img src="laptop.jpg" alt="" class="card-img-top">
+
+                    <div class="card-body">
+                        <p class="text-muted">Laptop</p>
+                        <span>
+                            <i class="fas fa-star text-warning   "></i>
+                            4.0
+                        </span>
+                        <p>2,511 Reviews</p>
+                        <h3>
+                            Lenovo IdeaPad Slim 3 Intel Core i3</h3>
+                        <h1 class="float-end">₹33,490</h1>
+                        <button class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Buy Now</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="airpods.jpg" alt="" class="card-img-top">
+
+                    <div class="card-body">
+                        <p class="text-muted">Earphones</p>
+                        <span>
+                            <i class="fas fa-star text-warning   "></i>
+                            4.2
+                        </span>
+                        <p>1,561 Reviews</p>
+                        <h3>Apple AirPods (3rd Generation)
+                        </h3>
+                        <h1 class="float-end">₹19,990</h1>
+                        <button class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Buy Now</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="watch.jpg" alt="" class="card-img-top">
+
+                    <div class="card-body">
+                        <p class="text-muted">Watch</p>
+                        <span>
+                            <i class="fas fa-star text-warning   "></i>
+                            4.6
+                        </span>
+                        <p>17,63 Reviews</p>
+                        <h3>Apple Watch Series 7 Sport Band</h3>
+                        <h1 class="float-end">₹37,490</h1>
+                        <button class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Buy Now</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- MDB -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"
+        integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".mycard"), {
+            max: 30,
+            speed: 1000,
+            glare: true,
+            reverse: true,
+            // reset: false
+            scale: 1.1,
+            axis: 'x'
+        });
+    </script> -->
+</body>
+
+</html>
